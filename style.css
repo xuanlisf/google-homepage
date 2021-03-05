@@ -19,6 +19,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
+/*begins style sheet*/
+
 body{
     font-family:Arial, sans-serif;
     font-size:14px;
@@ -50,8 +53,10 @@ li a:hover{
     background-color:#f2f2f2;
     color:#70757a;
     display:flex;
+    align-items:center;
     justify-content: space-between;
-    padding:10px 10px;
+    height:50px;
+    padding-left:10px;
 }
 .footer a{
     color:#70757a;
@@ -67,12 +72,18 @@ li a:hover{
     display:flex;
     justify-content: space-between;
     margin-top:10px;
+    margin-left:15px;
 }
 .content{
-    margin-top:20%;
+    height:70vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
 }
 .rightside{
-    margin-right:20px;
+    margin-right:35px;
 }
 .rightside-footer{
     margin-right:20px;
@@ -89,8 +100,11 @@ li a:hover{
     color:white;
     border-style:none;
     border-radius:5px;
-    padding: 9px 15px 9px 15px;
+    padding: 9px 25px 9px 25px;
+    margin-left:5px;
+    border: 1px solid white;
 }
 #signin:hover{
-    background-color:black;
+    background-color:#3e85e2;
+    border: 1px solid #84a9da;
 }
