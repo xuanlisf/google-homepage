@@ -1,3 +1,24 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 body{
     font-family:Arial, sans-serif;
     font-size:14px;
@@ -14,7 +35,7 @@ li{
 
 li a{
     display:block;
-    padding:8px;
+    padding:10px;
     text-decoration:none;
     color:#222;
 }
@@ -30,7 +51,7 @@ li a:hover{
     color:#70757a;
     display:flex;
     justify-content: space-between;
-    padding:20px 10px;
+    padding:10px 10px;
 }
 .footer a{
     color:#70757a;
@@ -43,19 +64,33 @@ li a:hover{
     position:fixed;
     top:0;
     width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
 }
 .content{
-    margin-top:40%;
+    margin-top:20%;
 }
 .rightside{
-    float:right;
     margin-right:20px;
 }
 .rightside-footer{
-    justify-content: flex-end;
+    margin-right:20px;
 }
 .middle-footer{
 }
+
 #leaf{
     height:14px;
+}
+
+#signin{
+    background-color: #1a73e8;
+    color:white;
+    border-style:none;
+    border-radius:5px;
+    padding: 9px 15px 9px 15px;
+}
+#signin:hover{
+    background-color:black;
 }
