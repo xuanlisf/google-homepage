@@ -123,16 +123,16 @@ li a:hover{
 }
 
 .searchbar-container{
-    max-width:800px;
-    min-width:600px;
+    max-width:750px;
+    min-width:300px;
     height:40px;
+    width:60vw;
     border: solid 1px lightgray;
     border-radius: 25px;
     display:flex;
     align-items:center;
     justify-content: space-between;
 }
-
 svg{
     fill:#9aa0a6;
     color:#9aa0a6;
@@ -144,8 +144,9 @@ svg{
 .searchbar{
     border:none;
     height: 30px;
-    max-width:750px;
-    min-width:550px;
+    width:50vw;
+    max-width:700px;
+    min-width:200px;
 }
 
 .searchbar:focus{
